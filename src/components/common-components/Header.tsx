@@ -10,10 +10,10 @@ const Header: React.FC<IHeader> = ({ name, description }) => {
         color="black.800"
         fontStyle="normal"
         lineHeight="md"
-        fontSize="lg">
-        {greetings()}, <chakra.span fontWeight={800}>{name}</chakra.span>
+        fontSize="xl">
+        {greetings()}, <chakra.span fontWeight={900}>{name}!</chakra.span>
       </Text>
-      <Text fontStyle="italic" fontSize="13px" fontWeight={400}>
+      <Text fontStyle="italic" fontSize="sm" fontWeight={400}>
         {description}
       </Text>
     </Box>
