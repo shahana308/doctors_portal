@@ -8,6 +8,10 @@ const colors = {
   white: {
     200: "#F3F5F7",
   },
+  grey: {
+    100: "#F3F5F7",
+    300: "#686868",
+  },
 } as const;
 
 export type Colors = typeof colors;

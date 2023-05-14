@@ -3,6 +3,7 @@ import { ChakraProvider, Container } from "@chakra-ui/react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./components/home/Home";
 import extendTheme from "./theme/theme";
+import { MainPage } from "./Home";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         p={0}>
         <Router>
           <Routes>
-            <Route path="/*" element={<Home></Home>} />
+            <Route path="/*" element={<MainPage></MainPage>} />
           </Routes>
         </Router>
       </Container>
