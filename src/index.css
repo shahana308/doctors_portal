@@ -1,0 +1,10 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Calibri";
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
