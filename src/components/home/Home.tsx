@@ -2,7 +2,7 @@ import { Container, Flex } from "@chakra-ui/react";
 import { HEADERDATA } from "../../utils/constants/Header";
 import Header from "../common-components/Header";
 import SearchBar from "../common-components/SearchBar";
-import Reports from "../common-components/Reports/reports";
+import Reports from "./Reports/reports";
 
 const Home = () => {
   return (
